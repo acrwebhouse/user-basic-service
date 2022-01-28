@@ -4,5 +4,5 @@ COPY package.json /usr/src/app/
 COPY . /usr/src/app
 RUN npm install 
 RUN npm run swagger-autogen
-EXPOSE 3000
+EXPOSE 13000
 CMD [ "node","app.js"]
